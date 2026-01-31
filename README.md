@@ -11,9 +11,9 @@ Rather than focusing on robot motion or control, the system models how manufactu
 Below is a snapshot of the quality intelligence outputs under injected failure conditions,
 showing yield degradation, defect distribution, and SPC-based process stability analysis.
 
-![Yield Over Time](dashboard/process_log_disturbance_20260201_002704/yield_over_time.png)
-![Error Heatmap](dashboard/process_log_disturbance_20260201_002704/error_heatmap.png)
-![C-Chart](dashboard/process_log_disturbance_20260201_002704/c_chart.png)
+![Yield Over Time](portfolio_images/yield_over_time.png)
+![Error Heatmap](portfolio_images/error_heatmap.png)
+![C-Chart](portfolio_images/c_chart.png)
 
 ## System Architecture
 **Manufacturing Flow**
