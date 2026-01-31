@@ -6,6 +6,15 @@ This project implements a simulated manufacturing cell designed to study how hid
 
 Rather than focusing on robot motion or control, the system models how manufacturing decisions are monitored, diagnosed, and corrected through statistical process control (SPC), failure mode and effects analysis (FMEA), and ISO-style deviation-to-CAPA pipelines.
 
+## Dashboard Preview (Disturbance Scenario)
+
+Below is a snapshot of the quality intelligence outputs under injected failure conditions,
+showing yield degradation, defect distribution, and SPC-based process stability analysis.
+
+![Yield Over Time](dashboard/process_log_disturbance_20260201_002704/yield_over_time.png)
+![Error Heatmap](dashboard/process_log_disturbance_20260201_002704/error_heatmap.png)
+![C-Chart](dashboard/process_log_disturbance_20260201_002704/c_chart.png)
+
 ## System Architecture
 **Manufacturing Flow**
 PICK → PLACE → INSPECT → ACCEPT / REJECT
