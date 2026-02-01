@@ -95,10 +95,13 @@ python src/capa_report.py
 - GitHub-based reproducibility
 
 ## Author
-**Jaekyung Lee**
+**Jaekyung Anna Lee**
+
 Department of Mechanical Engineering, Yonsei University
+
 Email: jjjlldk@gmail.com
 
 ## License
 Released for academic and portfolio use.
+
 Commercial deployment requires explicit permission.
