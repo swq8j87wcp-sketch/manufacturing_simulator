@@ -62,35 +62,43 @@ reports/ → ISO-style CAPA reports (Markdown/PDF)
 src/ → Simulation, analysis, and reporting code
 
 ## How to Run
+
 ```bash
-# Run all scenarios
+# Run all scenarios (baseline / disturbance / recovery)
 python src/run_experiments.py
 
-# Analyze a specific scenario
+# Analyze a specific scenario log
 python src/analysis.py data/process_log_disturbance_YYYYMMDD_HHMMSS.csv
 
-# Generate CAPA report (after copying target log to data/process_log.csv)
+# Generate CAPA report
+# (copy the target log to data/process_log.csv first)
 python src/capa_report.py
-Engineering Focus
+```
+## Engineering Focus
+- Process stability over mechanical control
 
-This project emphasizes:
+- Traceability and deviation management
 
-Process stability over mechanical control
+- Data-driven corrective action systems
 
-Traceability and deviation management
+- Quality intelligence in regulated manufacturing domains
 
-Data-driven corrective action systems
+## Tech Stack
+- Python
 
-Quality intelligence in regulated manufacturing domains
+- Pandas / Matplotlib / Seaborn
 
-Tech Stack
+- CSV-based logging
 
-Python
+- Markdown report generation
 
-Pandas / Matplotlib / Seaborn
+- GitHub-based reproducibility
 
-Streamlined CSV logging
+## Author
+**Jaekyung Lee**
+Department of Mechanical Engineering, Yonsei University
+Email: jjjlldk@gmail.com
 
-Markdown/PDF report generation
-
-GitHub-based reproducibility
+## License
+Released for academic and portfolio use.
+Commercial deployment requires explicit permission.
